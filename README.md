@@ -1,4 +1,4 @@
-# Bind-9.9.3-Reverier-patched
+# Bind-9.9.3 --Reverier-patched
 本仓库包含已经编译好的打过补丁的bind-9.9.3.
 
 # Usage
