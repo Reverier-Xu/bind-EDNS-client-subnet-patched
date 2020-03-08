@@ -1,6 +1,15 @@
 # Bind-9.9.3-Reverier-patched
 本仓库包含已经编译好的打过补丁的bind-9.9.3.
+
+# Usage
+在本仓库目录下, 执行
+```
+/bin/dig/dig @<DNS Server> <Target Server Domain> +client=<Querier IP address>
+```
+即可使用.
+
 # Installation
+本脚本只是简单的复制和链接可执行文件. 不建议这么做.
 ```
 git clone https://github.com/Reverier-Xu/bind-EDNS-SUBNET-patched.git ./.bind-patched
 
@@ -8,6 +17,17 @@ cd ./.bind-patched
 
 ./install.sh
 ```
+
+# Trouble Shooting
+由于编译工作在Archlinux上进行, 不保证本仓库编译好的二进制文件适用于所有系统.
+可以使用以下指令重新编译:
+```
+./configure --without-openssl
+make
+```
+然后运行.
+
+# bind-9.9.3 官方README
 BIND 9
 
 	BIND version 9 is a major rewrite of nearly all aspects of the
