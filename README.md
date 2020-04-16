@@ -1,3 +1,5 @@
+# Bind 9.10 版本官方已经merge了EDNS CLIENT SUBNET功能, 此仓库请勿使用!!
+
 # Bind-9.9.3 --Reverier-patched
 本仓库包含已经编译好的打过补丁的bind-9.9.3.
 
